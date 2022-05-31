@@ -104,5 +104,9 @@ body{
     }
     .insgram-wrapper{        
         justify-content: center;
+        width: 100%;
+    }
+    .instagram-continue{
+        width: 70%;
     }
 }
