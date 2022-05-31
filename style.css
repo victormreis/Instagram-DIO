@@ -24,7 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%; 
+    min-width: 60%; 
     height: 100vh;       
 }
 
@@ -96,4 +96,10 @@ body{
 
 .instagram-logout span{
     color: #0095F6 ;
+}
+
+@media (max-width: 968px) {
+    .instagram-phone{
+        display: none;
+    }
 }
